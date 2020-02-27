@@ -1,0 +1,24 @@
+Package: CERMBlidarstats
+Type: Package
+Title: Functions to analyse and compare LiDAR and derived raster data
+Version: 0.1.0
+Date: 2020-02-27
+Authors@R: c(
+  person("Meaghan", "Jenkins", role = "aut", email = "mjenkins@uow.edu.au"),
+  person("Michael", "Bedward", role = c("aut", "cre"), email = "michael.bedward@gmail.com")
+  )
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: GPL-2 + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat (>= 2.1.0)
+Depends: R (>= 3.6.0),
+  lidR (>= 2.1.4),
+  raster (>= 3.0)
+Imports: CERMBlidar (>= 0.1.29),
+  CERMBlidarpostgis (>= 0.1.19),
+  dplyr,
+  sf
+RoxygenNote: 7.0.2
